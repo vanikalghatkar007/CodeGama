@@ -1,0 +1,33 @@
+.header {
+    background: linear-gradient(90deg, #5b21b6, #3b383a);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #fff;
+  
+    .logo a {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+    }
+  
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #fff;
+      position: relative;
+    }
+  
+    .cart-count {
+      position: absolute;
+      top: -8px;
+      right: -12px;
+      background: red;
+      border-radius: 50%;
+      padding: 0.2rem 0.5rem;
+      font-size: 0.7rem;
+    }
+  }
+  
