@@ -21,7 +21,7 @@ const CartPage = () => {
                 <img src={item.image} alt={item.title} />
                 <div className="details">
                   <h4>{item.title}</h4>
-                  <p>Price: ${item.price.toFixed(2)}</p>
+                  <p>Price: ${item.price.toFixed(2)} * {item.quantity} = {(item.price*item.quantity)} </p>
                   <div className="quantity-controls">
                     <button onClick={() => dispatch(decrementQty(item.id))}>-</button>
                     <span>{item.quantity}</span>
